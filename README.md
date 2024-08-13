@@ -1,2 +1,2 @@
-# lior-maman.github.io
+# lior.github.io
 my simple website
