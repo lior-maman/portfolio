@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00001000001" textdirection="rtl" textengine="DirectWrite" device="true" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" preventUpscale="true" outputtype="undefined" theme="unified" themeAccentColor="0xD16349">
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00001000001" textdirection="rtl" textengine="DirectWrite" device="true" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0xD16349">
   <layouts>
-    <layout name="npnxnanbsnfns00010100001" font="Assistant Light" controllayout="npnxnanbsnfns00010100001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="pxabnsnfns00010100001" font="Assistant Light" controllayout="pxabnsnfns00010100001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="npxnabnsnfns00010100001" font="Assistant Light" controllayout="npxnabnsnfns00010100001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="npnxnanbnsnfns00010100001" font="Assistant Light" controllayout="npnxnanbnsnfns00010100001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
-    <layout name="pxabnsnfns00010100000" font="Assistant Light" controllayout="pxabnsnfns00010100000" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="npnxnanbsnfns00000100001" font="Assistant Light" controllayout="npnxnanbsnfns00000100001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="pxabnsnfns00000100001" font="Assistant Light" controllayout="pxabnsnfns00000100001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="npxnabnsnfns00000100001" font="Assistant Light" controllayout="npxnabnsnfns00000100001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="npnxnanbnsnfns00000100001" font="Assistant Light" controllayout="npnxnanbnsnfns00000100001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
+    <layout name="pxabnsnfns00000100000" font="Assistant Light" controllayout="pxabnsnfns00000100000" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
     <layout name="npnxnanbnsnfns00001000001" font="Assistant Light" controllayout="npnxnanbnsnfns00001000001" colorscheme="npnxnanbnsnfns00001000001" string_table="npnxnanbnsnfns00001000001" />
   </layouts>
   <control_options>
@@ -14,7 +14,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="home-made-pizza" />
+              <option name="title_text" value="Pizza-hub" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -45,7 +45,6 @@
             </options>
           </option>
           <option name="logoAltText" />
-          <option name="logoAltTextEnabled" value="true" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -67,13 +66,13 @@
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
-          <option name="pauseplay" value="true" />
+          <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
           <option name="closed_captions" value="false" />
-          <option name="settings" value="true" />
+          <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
-          <option name="playbackSpeedControl" value="true" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -100,18 +99,18 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00010100001">
+    <control_layout name="npnxnanbsnfns00000100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="true" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -125,18 +124,18 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00010100001">
+    <control_layout name="pxabnsnfns00000100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="true" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -150,18 +149,18 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00010100001">
+    <control_layout name="npxnabnsnfns00000100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="true" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -175,18 +174,18 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00010100001">
+    <control_layout name="npnxnanbnsnfns00000100001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="true" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -200,18 +199,18 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00010100000">
+    <control_layout name="pxabnsnfns00000100000">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="true" />
+      <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -236,7 +235,7 @@
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1434,7 +1433,6 @@
       <string id="acc_active">פעיל</string>
       <string id="acc_cc_hide">הסתר כתוביות (קונטרול+אלט+C)</string>
       <string id="acc_cc_show">הראה כתוביות (קונטרול+אלט+C)</string>
-      <string id="acc_correct_choice">%answer% (הבחירה הנכונה)</string>
       <string id="acc_definition">הגדרה</string>
       <string id="acc_enter_fullscreen">היכנס למסך מלא (קונטרול+אלט+F)</string>
       <string id="acc_exit_fullscreen">צא ממסך מלא (קונטרול+אלט+F)</string>
@@ -1453,28 +1451,14 @@
       <string id="acc_mute">השתקה (קונטרול+אלט+M)</string>
       <string id="acc_next">הבא (קונטרול+אלט+נקודה)</string>
       <string id="acc_next_visual">הבא (קונטרול+אלט+.)</string>
-      <string id="acc_ordinal_eighth">שמיני</string>
-      <string id="acc_ordinal_fifth">חמישי</string>
-      <string id="acc_ordinal_first">ראשון</string>
-      <string id="acc_ordinal_fourth">רביעי</string>
-      <string id="acc_ordinal_ninth">תשיעי</string>
-      <string id="acc_ordinal_second">שני</string>
-      <string id="acc_ordinal_seventh">שביעי</string>
-      <string id="acc_ordinal_sixth">שישי</string>
-      <string id="acc_ordinal_tenth">עשירי</string>
-      <string id="acc_ordinal_third">שלישי</string>
       <string id="acc_pause">השהייה (קונטרול+אלט+P)</string>
       <string id="acc_play">הפעלה (קונטרול+אלט+P)</string>
       <string id="acc_playback_speed">מהירות פסקול</string>
-      <string id="acc_played">%time% שוחק</string>
       <string id="acc_previous">הקודם (קונטרול+אלט+פסיק)</string>
       <string id="acc_previous_visual">קודם (קונטרול+אלט+,)</string>
       <string id="acc_replay">הפעלה מחדש (קונטרול+אלט+R)</string>
       <string id="acc_resources">משאבים</string>
       <string id="acc_search_input">חיפוש</string>
-      <string id="acc_search_result_status">%count% תוצאות נמצאו עבור %term%</string>
-      <string id="acc_search_results_status">%count% תוצאות נמצאו עבור %term%</string>
-      <string id="acc_select_an_option">בחר אפשרות</string>
       <string id="acc_settings">הגדרות</string>
       <string id="acc_skipnavigation">חזור למעלה</string>
       <string id="acc_slide_progress">התקדמות השקופית</string>
@@ -1502,7 +1486,6 @@
       <string id="close">סגור</string>
       <string id="closed_captions">כתוביות</string>
       <string id="closedcaptions_shortcut">החלפת כתוביות</string>
-      <string id="comma_key">פסיק</string>
       <string id="continueresponsive">המשך</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="definition">הגדרה</string>
@@ -1530,8 +1513,6 @@
       <string id="next">הבא</string>
       <string id="next_shortcut">הבא</string>
       <string id="outline">תפריט</string>
-      <string id="outline_container">תפריט</string>
-      <string id="period_key">תקופה</string>
       <string id="playback_speed_normal">רגילה</string>
       <string id="playback_speed_title">מהירות פסקול</string>
       <string id="playpause_shortcut">הפעלה/השהייה</string>
@@ -1544,7 +1525,6 @@
       <string id="progress_second">שניה</string>
       <string id="progress_seconds">שניות</string>
       <string id="question_list">רשימת שאלות</string>
-      <string id="question_mark_key">סימן שאלה</string>
       <string id="replay_shortcut">הפעל שוב</string>
       <string id="resources">משאבים</string>
       <string id="restart">הפעל מחדש</string>
@@ -1609,15 +1589,6 @@
       <string id="video_transcript_title">תמלילים</string>
       <string id="zoom_to_fit">תקריב כדי שיתאים</string>
       <string id="continue">המשך</string>
-      <string id="invalid_prompt_button">אישור</string>
-      <string id="invalid_prompt_message">עליך להשלים את השאלה לפני השליחה.</string>
-      <string id="invalid_prompt_title">תשובה לא חוקית</string>
-      <string id="print_prompt_button">אישור</string>
-      <string id="print_prompt_title">הזן שם</string>
-      <string id="print_prompt_message">הזן את שמך בשדה להלן:</string>
-      <string id="timer_prompt_button">אישור</string>
-      <string id="timer_prompt_title">חרגת ממגבלת הזמן</string>
-      <string id="timer_prompt_message">הגעת למגבלת הזמן של הבוחן. לחץ על 'אישור' כדי להמשיך.</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1636,7 +1607,7 @@
           <links>
             <slidelink slideid="_player.6q74IkCwKTu.5q6slSMsMns" displaytext="מרכזי" expand="false" type="slide" />
             <slidelink slideid="_player.6q74IkCwKTu.5aspbELgbPo" displaytext="ברוכים הבאים" expand="false" type="slide" />
-            <slidelink slideid="_player.6q74IkCwKTu.5hbKIQhjKPe" displaytext="מסכם" expand="false" type="slide" />
+            <slidelink slideid="_player.6q74IkCwKTu.5hbKIQhjKPe" displaytext="תרגול" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6lfHeKYVesw" displaytext="מבחן לעובד חדש" expand="true" type="slide">
